@@ -1,0 +1,31 @@
+{
+  "name": "compare-css-selectors",
+  "version": "0.0.0",
+  "description": "Compare the specificity of several CSS selectors",
+  "scripts": {
+    "coverage": "rm -rf coverage && istanbul cover test.js",
+    "coveralls": "npm run coverage && cat coverage/lcov.info | coveralls",
+    "develop": "node-dev --respawn --no-notify --no-deps test.js | tap-spec",
+    "test": "eslint . && node test.js | tap-spec"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "files": [
+    "/**/*.js",
+    "/Readme.md",
+    "/License.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "selector",
+    "specificity"],
+  "author": "© 2016 Studio B12 GmbH (http://studio-b12.de)",
+  "contributors": [
+    "Barboros Can Konar <b.konar@studio-b12.de>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/studio-b12/compare-css-selectors.git"
+  }
+}
