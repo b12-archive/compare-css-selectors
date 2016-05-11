@@ -9,7 +9,18 @@
     "test": "eslint . && node test.js | tap-spec"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "istanbul": "^0.4.3",
+    "node-dev": "^3.1.1",
+    "npm": "^3.8.9",
+    "tap-spec": "^2.2.2",
+    "tape": "^4.5.1",
+    "tape-catch": "^1.0.5"
+  },
   "files": [
     "/**/*.js",
     "/Readme.md",
@@ -19,7 +30,8 @@
   "keywords": [
     "css",
     "selector",
-    "specificity"],
+    "specificity"
+  ],
   "author": "© 2016 Studio B12 GmbH (http://studio-b12.de)",
   "contributors": [
     "Barboros Can Konar <b.konar@studio-b12.de>"
