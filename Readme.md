@@ -1,3 +1,7 @@
+**This package is deprecated!** Please use [sort-specificity](https://git.io/sort-specificity) instead.
+
+***
+
 [![Coveralls – test coverage
 ](https://img.shields.io/coveralls/studio-b12/compare-css-selectors.svg?style=flat-square
 )](https://coveralls.io/r/studio-b12/compare-css-selectors
